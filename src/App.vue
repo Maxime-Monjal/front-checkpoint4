@@ -1,26 +1,24 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <NavBar />
+  <Home />
+  <Wilders />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Home from "./view/Home";
+import NavBar from "./components/common/NavBar";
+import Wilders from "./components/Wilders";
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  name: "App",
+  components: { Home, NavBar, Wilders },
+};
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Lato, Helvetica, Arial, sans-serif;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
