@@ -1,13 +1,14 @@
 <template>
-  <div class="profil"></div>
+  <div class="profil">
+    <h1>Hello Vue Profil</h1>
+  </div>
 </template>
 
 <script>
 export default {
- 
-}
-</script> 
+  name: "profil",
+  components: {},
+};
+</script>
 
-<style>
-
-</style>
+<style></style>
