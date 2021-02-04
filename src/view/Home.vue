@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <img src=../assets/logo/wild.png alt="wild" >
     <Wilders />
   </div>
 </template>
@@ -14,10 +13,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.home {
-  img {
-    padding: 2rem;
-  }
-}
-</style>
+<style lang="scss"></style>

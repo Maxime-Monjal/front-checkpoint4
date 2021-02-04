@@ -12,7 +12,9 @@
       <a :href="wilder.linkedin">LinkedIn</a>
       <a :href="wilder.github">Github</a>
     </div>
-    <button type="button">Modifier son profil</button>
+    <router-link to="./profil">
+      <button type="button">Modifier son profil</button></router-link
+    >
   </div>
 </template>
 
