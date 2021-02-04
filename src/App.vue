@@ -1,17 +1,15 @@
 <template>
   <NavBar />
   <Home />
-  <Wilders />
 </template>
 
 <script>
 import Home from "./view/Home";
 import NavBar from "./components/common/NavBar";
-import Wilders from "./components/Wilders";
 
 export default {
   name: "App",
-  components: { Home, NavBar, Wilders },
+  components: { Home, NavBar },
 };
 </script>
 
